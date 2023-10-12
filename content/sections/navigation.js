@@ -46,7 +46,7 @@ export default class Navigation extends Component {
                 <StyledContainer>
                     <Brand>
                         <Link to="/" onClick={this.closeMobileMenu}>
-                            <h2>ZLURI</h2>
+                            <h2>Dhwani Dattani</h2>
                         </Link>
                     </Brand>
                     <Mobile>
@@ -66,13 +66,13 @@ export default class Navigation extends Component {
                         <NavListWrapper>
                             <ul>
                                 <NavItem>
-                                    <a href="">Email</a>
+                                    <a href="mailto:dhwanidattani1@gmail.com">Email</a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="">Contact me</a>
+                                    <a href="tel:+919427424184">Contact me</a>
                                 </NavItem>
                                 <ActionsContainer>
-                                    <a href="https://get.zluri.com/request-demo">
+                                    <a href="/resume.pdf">
                                         <button>Resume</button>
                                     </a>
                                 </ActionsContainer>

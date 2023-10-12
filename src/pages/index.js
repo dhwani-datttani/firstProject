@@ -8,6 +8,7 @@ import S1 from "../../content/sections/s1";
 import QuestionsHeading from "../../content/sections/q2";
 import Q3 from "../../content/sections/q3";
 import Q4 from "../../content/sections/q4";
+import S5 from "../../content/sections/s5";
 import Feedback from "../../content/sections/feedback";
 import Navigation from "../../content/sections/navigation";
 import Header from "../../content/sections/header";
@@ -26,6 +27,7 @@ export default function IndexPage() {
         <S1 />
         <Q3 />
         <Q4 />
+        <S5 />
         <Feedback />
       </div>
     </Layout>

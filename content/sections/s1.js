@@ -12,6 +12,24 @@ const S1 = () => {
                     </h4>
                     <p>Answer below this.</p>
                 </Title>
+                    <GridColumn>
+                        <GridRow>
+                            <GridItem>
+                                1st
+                            </GridItem>
+                            <GridItem>
+                                2nd
+                            </GridItem>
+                        </GridRow>
+                        <GridRow>
+                            <GridItem>
+                                3rd
+                            </GridItem>
+                            <GridItem>
+                                4th
+                            </GridItem>
+                        </GridRow>
+                    </GridColumn>
             </Container>
         </StyledWrapper>
     )
@@ -51,4 +69,21 @@ ul{
 li{
     font-size:20px;
 }
+`
+const GridColumn = styled.div`
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column size as needed */
+  gap: 20px;
+`
+const GridRow = styled.div`
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column size as needed */
+  gap: 20px;
+`
+
+const GridItem = styled.div`
+padding:80px;
+background:#FFFFFF;
+border: 1px solid #000000;
+border-radius: 20px;
 `
